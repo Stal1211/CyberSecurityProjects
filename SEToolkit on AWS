@@ -1,1 +1,19 @@
-
+sudo apt-get update
+sudo curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
+ls
+sudo chmod 755 msfinstall
+sudo msfupdate
+sudo msfconsole --version
+sudo git clone https://github.com/trustedsec/social-engineer-toolkit/ setoolkit/
+ls
+sudo apt install python3-pip
+sudo pip3 --version
+clear
+cd setoolkit/
+ls
+sudo cat requirememts.txt
+sudo pip3 install -r requirements.txt
+ls
+sudo python3 setup.py
+ls
+sudo setoolkit
